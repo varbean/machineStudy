@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/machineLearnStudy.iml" filepath="$PROJECT_DIR$/.idea/machineLearnStudy.iml" />
+      <module fileurl="file://D:/pythonStudy/.idea/pythonStudy.iml" filepath="D:/pythonStudy/.idea/pythonStudy.iml" />
     </modules>
   </component>
 </project>
