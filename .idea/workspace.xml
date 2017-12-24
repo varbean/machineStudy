@@ -5,54 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6db9d4db-9641-46cf-a138-d37c99ddae28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/beifeng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/black_white.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/result_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/result_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/result_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/datas/xiaoren.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/oneDay/testPoly.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/svm/testIris.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/breast-cancer-wisconsin.data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/crx.data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/iris.data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/test222.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/testIris.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/testLogistic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/回归/testSp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/聚类/testKmeans.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mycode/聚类/testKmeansAndAll.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/01_案例一：K-Means算法聚类.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/02_案例二：K-Means算法和Mini Batch K-Means算法比较.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/03_案例三：K-Means算法和Mini Batch K-Means算法效果评估.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/04_案例四：层次聚类(AGNES)算法采用不同距离计算策略导致的数据合并不同形式.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/05_案例五：层次聚类(BIRCH)算法参数比较.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/06_案例六：密度聚类(DBSCAN)算法案例.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/07_案例七：谱聚类(SC)算法案例.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/08_综合案例一：不同聚类算法的比较.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/10_综合案例二：基于K-Means算法进行图片压缩.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/kmeans_teach.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/kmeans辅助.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/testAll.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/cluster/testCC.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/regression/06_Logistic案例：乳腺癌分类.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/regression/07_Softmax算法案例(一)：葡萄酒质量预测模型.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/regression/08_分类问题综合案例(一)：信贷审批.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/regression/09_分类问题综合案例(三)：鸢尾花数据分类.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/01_案例一：鸢尾花数据SVM分类.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/02_案例二：鸢尾花数据不同分类器效果比较.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/03_案例三：不同SVM核函数效果比较.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/04_案例四：不同SVM惩罚参数C值不同效果比较.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/05_案例五：SVM多目标属性分类问题.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/06_案例六：手写数字识别.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/07_案例七：自定义SVM内部核函数.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/08_案例八：使用SVM预测波士顿房价.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/datas/boston_housing.data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/svm/datas/iris.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher/深度学习/oneDay/BP+Network.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mycode/oneDay/testGrad.py" afterPath="$PROJECT_DIR$/mycode/oneDay/testGrad.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teacher/day1/02_家庭用电预测：线性回归算法(时间与电压的多项式关系).ipynb" afterPath="$PROJECT_DIR$/teacher/day1/02_家庭用电预测：线性回归算法(时间与电压的多项式关系).ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,11 +21,13 @@
     <SUITE FILE_PATH="coverage/machineLearnStudy$testKmeans.coverage" NAME="testKmeans Coverage Results" MODIFIED="1513002718458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/聚类" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testAll.coverage" NAME="testAll Coverage Results" MODIFIED="1513002970931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher/cluster" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testKmeansAndAll.coverage" NAME="testKmeansAndAll Coverage Results" MODIFIED="1513007653462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/聚类" />
+    <SUITE FILE_PATH="coverage/machineLearnStudy$TestOne.coverage" NAME="TestOne Coverage Results" MODIFIED="1514046076791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/deepLearning/test" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testGrad.coverage" NAME="testGrad Coverage Results" MODIFIED="1512221897696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/oneDay" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$kmeans_teach.coverage" NAME="kmeans_teach Coverage Results" MODIFIED="1513002584536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher/cluster" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testIris.coverage" NAME="testIris Coverage Results" MODIFIED="1513001550605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/回归" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testModel.coverage" NAME="testModel Coverage Results" MODIFIED="1511364965797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/oneDay" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testRegression.coverage" NAME="testRegression Coverage Results" MODIFIED="1511539910361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/oneDay" />
+    <SUITE FILE_PATH="coverage/machineLearnStudy$BP_Network.coverage" NAME="BP+Network Coverage Results" MODIFIED="1514042291982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher/深度学习/oneDay" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testCC.coverage" NAME="testCC Coverage Results" MODIFIED="1512998133428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teacher/cluster" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testClassLearn.coverage" NAME="testClassLearn Coverage Results" MODIFIED="1512220546423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/oneDay" />
     <SUITE FILE_PATH="coverage/machineLearnStudy$testsdfsf.coverage" NAME="testsdfsf Coverage Results" MODIFIED="1512306045343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycode/oneDay" />
@@ -91,14 +47,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testKmeansAndAll.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testKmeansAndAll.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mycode/聚类/testKmeansAndAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestOne.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mycode/deepLearning/test/TestOne.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BP+Network.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher/深度学习/oneDay/BP+Network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +134,8 @@
         <option value="$PROJECT_DIR$/teacher/cluster/testAll.py" />
         <option value="$PROJECT_DIR$/teacher/cluster/kmeans辅助.ipynb" />
         <option value="$PROJECT_DIR$/mycode/聚类/testKmeansAndAll.py" />
+        <option value="$PROJECT_DIR$/teacher/深度学习/oneDay/BP+Network.py" />
+        <option value="$PROJECT_DIR$/mycode/deepLearning/test/TestOne.py" />
       </list>
     </option>
   </component>
@@ -165,7 +145,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="290" />
     <option name="y" value="44" />
     <option name="width" value="1104" />
@@ -194,17 +174,6 @@
               <item name="machineLearnStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="machineLearnStudy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="machineLearnStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machineLearnStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machineLearnStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machineLearnStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
-              <item name="聚类" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -219,11 +188,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\machineLearnStudy\teacher\深度学习\oneDay" />
       <recent name="D:\machineLearnStudy\teacher\cluster" />
       <recent name="D:\machineLearnStudy\teacher\svm" />
       <recent name="D:\machineLearnStudy\mycode\回归" />
       <recent name="D:\machineLearnStudy\mycode\oneDay\data" />
-      <recent name="D:\machineLearnStudy\teacher\regression" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,21 +207,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testKmeansAndAll">
-    <configuration name="kmeans_teach" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.TestOne">
+    <configuration name="BP+Network" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/teacher/cluster" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/teacher/深度学习/oneDay" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="machineLearnStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teacher/cluster/kmeans_teach.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teacher/深度学习/oneDay/BP+Network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="TestOne" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mycode/deepLearning/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="machineLearnStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mycode/deepLearning/test/TestOne.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,24 +258,6 @@
       <module name="machineLearnStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teacher/cluster/testAll.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="testIris" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mycode/回归" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="machineLearnStudy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mycode/回归/testIris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +299,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.kmeans_teach" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testKmeans" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testIris" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testAll" />
-      <item index="4" class="java.lang.String" itemvalue="Python.testKmeansAndAll" />
+      <item index="0" class="java.lang.String" itemvalue="Python.testKmeans" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testAll" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testKmeansAndAll" />
+      <item index="3" class="java.lang.String" itemvalue="Python.TestOne" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BP+Network" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.testKmeansAndAll" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testAll" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testKmeans" />
-        <item index="3" class="java.lang.String" itemvalue="Python.kmeans_teach" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testIris" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TestOne" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BP+Network" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testKmeansAndAll" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testAll" />
+        <item index="4" class="java.lang.String" itemvalue="Python.testKmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -371,23 +340,30 @@
       <option name="project" value="LOCAL" />
       <updated>1512049403936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="svm、聚类">
+      <created>1513014368144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513014368144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16717096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45394737" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28453946" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30921054" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4194079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -407,29 +383,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="梯度下降算法" />
     <MESSAGE value="梯度下降" />
-    <option name="LAST_COMMIT_MESSAGE" value="梯度下降" />
+    <MESSAGE value="svm、聚类" />
+    <option name="LAST_COMMIT_MESSAGE" value="svm、聚类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/teacher/深度学习/oneDay/BP+Network.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mycode/oneDay/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/pythonStudy/MyCode/practiseDay/AIjob/1question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacher/day1/案例一时间与功率回归.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -695,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="898" column="8" lean-forward="false" selection-start-line="898" selection-start-column="8" selection-end-line="898" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,8 +738,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mycode/聚类/testKmeansAndAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="780">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher/深度学习/oneDay/BP+Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycode/deepLearning/test/TestOne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
