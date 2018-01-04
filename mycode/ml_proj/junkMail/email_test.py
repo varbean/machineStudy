@@ -2,9 +2,13 @@ import numpy as np
 import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import jieba
 import time
+from sklearn.decomposition import TruncatedSVD
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-## 设置字符集，防止中文乱码
+
+# 设置字符集，防止中文乱码
 mpl.rcParams['font.sans-serif']=[u'simHei']
 mpl.rcParams['axes.unicode_minus']=False
 #读取索引
@@ -63,7 +67,7 @@ def write_result():
     略
 """
 
-
+#正文长度
 def precess_content_length(lg):
     if lg <= 10:
         return 0
@@ -95,6 +99,8 @@ def precess_content_length(lg):
         return 13
     else:
         return 14
+
+#查看正文长度是否对结果有影响
 def test_feature():
     df=pd.read_csv("data/result",sep=",",encoding="utf-8",header=None,names=["from","to","date","content","label"])
 
@@ -123,8 +129,46 @@ def test_feature():
     plt.legend(loc = 0)
     plt.show()
 
-# df=pd.read_csv("data/result",sep=",",encoding="utf-8",header=None,names=["from","to","date","content","label"])
+def process_content_sema(x):
+    if x > 10000:
+        return 0.5 / np.exp(np.log10(x) - np.log10(500)) + np.log(abs(x - 500) + 1) - np.log(abs(x - 10000)) + 1
+    else:
+        return 0.5 / np.exp(np.log10(x) - np.log10(500)) + np.log(abs(x - 500) + 1) + 1
+
+        # df=pd.read_csv("data/result",sep=",",encoding="utf-8",header=None,names=["from","to","date","content","label"])
 # for i,d in enumerate(df["content"]):
 #     if(type(d)!=str):
 #         print(i)
-test_feature()
+
+#现在确定 训练的特征：是否有时间  正文  正文长度
+df = pd.read_csv("data/result", sep=",", encoding="utf-8", header=None,
+                 names=["from", "to", "date", "content", "label"])
+
+df["content_lenth"]=pd.Series(map(lambda x:len(str(x)),df["content"]))
+df["content_sema"]=pd.Series(map(lambda x:process_content_sema(x),df["content_lenth"]))
+df["date_has"]=pd.Series(map(lambda x:0 if x=="unknown" else 1,df["date"]))
+
+#对正文进行分词
+
+df["content"]=df["content"].astype("str")
+df["jieba_content"]=list(map(lambda x:" ".join(jieba.cut(x)),df["content"]))
+
+#量化正文
+
+transfromer = TfidfVectorizer(norm='l2', use_idf=True)
+svd = TruncatedSVD(n_components=20)
+jieba_cut_content = list(df['jieba_content'].astype('str'))
+transfromer_model = transfromer.fit(jieba_cut_content)
+df1 = transfromer_model.transform(jieba_cut_content)
+svd_model = svd.fit(df1)
+df2 = svd_model.transform(df1)
+
+#生成新的数据训练测试
+dp=pd.DataFrame(df2)
+dp["date_has"]=df["date_has"]
+dp["content_sema"]=df["content_sema"]
+dp["label"]=df["label"]
+
+dp=dp.replace(" ",np.nan).replace("unknown",np.nan).dropna(how="any")
+
+dp.to_csv("data/finish_result",encoding="utf-8")
