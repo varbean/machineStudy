@@ -12,22 +12,23 @@ class huoche(object):
 	driver_name=''
 	executable_path=''
 	#用户名，密码
-	username = u"1109986775@qq.com"
-	passwd = u"wei25222454819"
+	username = u"583516903@qq.com"
+	passwd = u"13785255141x"
 	# cookies值得自己去找, 下面两个分别是上海, 太原南
-	starts = u"%u5317%u4EAC%2CBJP"
-	ends = u"%u5B9A%u5DDE%2CDXP"
+	starts = u"%u6B66%u6C49%2CWHN"
+	ends = u"%u4FDD%u5B9A%2CBDP"
 	# 时间格式2018-01-19
-	dtime = u"2018-02-02"
+	dtime = u"2018-02-07"
 	# 车次，选择第几趟，0则从上之下依次点击
-	order = 0
+	order = 21
 	###乘客名
-	users = [u"魏少鹏"]
+	users = [u"乔稳"]
 	##席位
 	xb = u"二等座"
 	pz=u"成人票"
 	#时间 从这个时间开始选车次，0-24
 	date_tic=12
+	date_tic_end=18
 	#车次类型 K G D Z等
 	car_types=["K","G"]
 	"""网址"""
@@ -73,6 +74,7 @@ class huoche(object):
 			if self.order!=0:
 				while self.driver.url==self.ticket_url:
 					self.driver.find_by_text(u"查询").click()
+					sleep(2)
 					count += 1
 					print (u"循环点击查询... 第 %s 次" % count)
 					# sleep(1)
@@ -98,7 +100,7 @@ class huoche(object):
 							tl = t.text.split(":")
 							car=t.find_by_xpath("../..//div[1]/a")[0]
 							#符合时间和车次
-							if (self.date_tic <= int(tl[0]) and car.text[0] in self.car_types):
+							if (self.date_tic <= int(tl[0]) and car.text[0] in self.car_types and self.data_tic_end >=int (tl[0])):
 								ti_id = t.find_by_xpath("../../../..")[0]["id"]
 								elem = self.driver.find_by_xpath("//*[@id='" + ti_id + "']/td[13]/a")
 								if len(elem) > 0:
