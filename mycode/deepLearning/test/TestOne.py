@@ -29,5 +29,22 @@ da1=np.arange(24).reshape(4,2,3)
 # da3=da1.reshape(da1.shape[0],-1)
 # print(da3)
 
-b=0
-assert(isinstance(b,float))
+def layer_sizes(X,Y):
+    n_x=X.shape[0]
+    n_h=4
+    n_y=Y.shape[0]
+    return (n_x,n_h,n_y)
+
+def initialize_parameters(n_x,n_h,n_y):
+
+    np.random.seed(2)
+    W1=np.random.randn(n_h,n_x)*0.01
+    b1=np.zeros((n_h,1))
+    W2=np.random.randn(n_h,1)
+    b2=np.zeros((n_h,1))
+
+    params={"w1":W1,"b1":b1,"w2":W2,"b2":b2}
+    return params
+
+for i in reversed(range(4-1)):
+    print(i)
