@@ -3,6 +3,7 @@ import h5py
 import matplotlib.pyplot as plt
 from testCases_v2 import *
 from dnn_utils_v2 import sigmoid, sigmoid_backward, relu, relu_backward
+from dnn_app_utils_v2 import *
 
 plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
@@ -211,10 +212,107 @@ def update_parameters(parameters,grads,learning_rate):
     return parameters
 
 
-parameters, grads = update_parameters_test_case()
-parameters = update_parameters(parameters, grads, 0.1)
+# parameters, grads = update_parameters_test_case()
+# parameters = update_parameters(parameters, grads, 0.1)
+#
+# print ("W1 = "+ str(parameters["W1"]))
+# print ("b1 = "+ str(parameters["b1"]))
+# print ("W2 = "+ str(parameters["W2"]))
+# print ("b2 = "+ str(parameters["b2"]))
 
-print ("W1 = "+ str(parameters["W1"]))
-print ("b1 = "+ str(parameters["b1"]))
-print ("W2 = "+ str(parameters["W2"]))
-print ("b2 = "+ str(parameters["b2"]))
+
+def two_layer_model(X,Y,layers_dims,learning_rate=0.0075,num_iterators=3000,print_cost=False):
+    costs=[]
+    grads={}
+    np.random.randn(1)
+
+    m=X.shape[1]
+
+    parameters=initialize_parameters(layers_dims[0],layers_dims[1],layers_dims[2])
+
+    W1=parameters["W1"]
+    b1=parameters["b1"]
+    W2=parameters["W2"]
+    b2 = parameters["b2"]
+
+    for i in range(1,num_iterators):
+        #计算向前传播的参数
+        A1,cache1=linear_activation_forward(X,W1,b1,"relu")
+        A2,cache2=linear_activation_forward(A1,W2,b2,"sigmoid")
+
+        #计算成本
+        cost=compute_cost(A2,Y)
+
+        #计算梯度值
+        dA2= - (np.divide(Y, A2) - np.divide(1 - Y, 1 - A2))
+
+
+        dA1,dW2,db2=linear_activation_backward(dA2,cache2,"sigmoid")
+        dA0,dW1,db1=linear_activation_backward(dA1,cache1,"relu")
+
+        grads["dW1"]=dW1
+        grads["dW2"] = dW2
+        grads["db1"] = db1
+        grads["db2"] = db2
+
+        #更新函数
+        parameters=update_parameters(parameters,grads,learning_rate)
+        #加入成本函数
+
+
+        if print_cost and i %100 ==0 :
+            costs.append(cost)
+            print("Cost after iteration {}: {}".format(i, np.squeeze(cost)))
+
+    plt.plot(np.squeeze(costs))
+    plt.ylabel('cost')
+    plt.xlabel('iterations (per tens)')
+    plt.title("Learning rate =" + str(learning_rate))
+    plt.show()
+    return parameters
+
+def many_layers_model(X,Y,layer_dims,learning_rate=0.0075,num_iterators=3000,print_cost=True):
+
+    np.random.seed(1)
+
+    costs=[]
+
+    param=initialize_parameters_deep(layer_dims)#参数
+
+    for i in range(0,num_iterators):
+        #向前传播 存储必要的参数
+        Al,caches=L_model_forward(X,param)
+
+        #计算成本
+        cost=compute_cost(Al,Y)
+
+        #更新梯度
+        grads=L_model_backward(Al,Y,caches)
+
+        #更新参数
+        param=update_parameters(param,grads,learning_rate)
+
+        if print_cost and i%100 ==0 :
+            costs.append(cost)
+            print("Cost after iteration {}: {}".format(i, np.squeeze(cost)))
+
+    plt.plot(np.squeeze(costs))
+    plt.ylabel('cost')
+    plt.xlabel('iterations (per tens)')
+    plt.title("Learning rate =" + str(learning_rate))
+    plt.show()
+    return param
+
+
+# train_x_orig, train_y, test_x_orig, test_y, classes = load_data()
+#
+# train_x_flatten = train_x_orig.reshape(train_x_orig.shape[0], -1).T   # The "-1" makes reshape flatten the remaining dimensions
+# test_x_flatten = test_x_orig.reshape(test_x_orig.shape[0], -1).T
+#
+# # Standardize data to have feature values between 0 and 1.
+# train_x = train_x_flatten/255.
+# test_x = test_x_flatten/255.
+# layers_dims=[12288,20,7,5,1]
+# layer_dim=[12288,7,1]
+#
+# param=two_layer_model(train_x,train_y,layer_dim, learning_rate=0.0075,num_iterators = 2500, print_cost=True)
